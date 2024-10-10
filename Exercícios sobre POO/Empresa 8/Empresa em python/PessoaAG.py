@@ -1,5 +1,5 @@
 # 8. Agregação Modele uma classe Empresa que agregue uma lista de objetos Empregado.
-# Cada empregado deve ter atributos como nome, cargo, e sala
+# Cada empregado deve ter atributos como nome e cargo
 
 from funcionario import Funcionario
 from endereco import Endereco

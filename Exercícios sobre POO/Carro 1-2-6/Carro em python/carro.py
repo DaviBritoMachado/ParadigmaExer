@@ -5,10 +5,13 @@ class Carro:
     def __init__(self, marca, modelo, ano) -> None:
         self.marca = marca
         self.modelo = modelo
-        self.modelo = ano
+        self.ano = ano
         self.motor = Motor("Gasolina", 150) # Composição
         self.pneus = [Pneu("Pirelli", 18) for _ in range(4)] # Composição
         self.velocidade = 0
+
+    def detalhes(self):
+        print(f'Marca {self.marca}, modelo {self.modelo} e ano {self.ano}')
 
     def ligar(self):
         self.motor.ligar()

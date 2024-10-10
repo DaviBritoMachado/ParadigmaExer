@@ -10,6 +10,7 @@ from pneu import Pneu
 
 def main():
     carro = Carro("Toyota", "Corolla", 2000)
+    carro.detalhes()
     carro.ligar()
     carro.acelerar()
     carro.mostrar_velocidade()

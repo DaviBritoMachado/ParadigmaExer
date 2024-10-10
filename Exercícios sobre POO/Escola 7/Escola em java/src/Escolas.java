@@ -16,7 +16,7 @@ public class Escolas {
     }
 
     public void imprimir_contratos(){
-        System.out.println(this.nome + " tem contratos com ");
+        System.out.println(this.nome + " tem contrato com ");
         for(Professor parceiro : contratos){
             System.out.println(parceiro.getNome());
         }

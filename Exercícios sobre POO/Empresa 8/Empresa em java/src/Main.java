@@ -1,3 +1,6 @@
+/* 8. Agregação Modele uma classe Empresa que agregue uma lista de objetos Empregado.
+   Cada empregado deve ter atributos como nome e cargo*/
+
 public class Main {
     public static void main(String[] args) {
         Endereco endereco1 = new Endereco("Av. Principal", "Patapingas", "Minas Gerais", "12345-234");
