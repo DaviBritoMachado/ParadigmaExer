@@ -6,27 +6,8 @@
 # fatorial de um número. Em Python, utilize @staticmethod, em Java static, e em Golang crie
 # uma função regular na struct.
 
-class Calculadora:
-    def __init__(self) -> None:
-        pass
-
-    def soma(self, x, y):
-        return x + y
-    
-    def soma3(self, x, y ,z):
-        return x + y + z
-    
-class Matematica:
-    def __init__(self) -> None:
-        pass
-
-    @staticmethod
-    def fatorial(numero):
-        fator = 1
-        while numero > 0:
-            fator *= numero
-            numero -= 1
-        return fator
+from calculadora import Calculadora
+from matematica import Matematica
 
 def main():
     calc = Calculadora()

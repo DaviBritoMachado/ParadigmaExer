@@ -6,4 +6,5 @@ class Endereco:
         self.cep = cep
     
     def mostrar_endereco(self):
+        print("Endereco: ", end="")
         print(f"Rua: {self.rua}, Cidade: {self.cidade}, Estado: {self.estado}, CEP: {self.cep}")

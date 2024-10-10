@@ -11,7 +11,6 @@ class Funcionario:
     def mostrar_informacoes(self):
         print(f"Nome: {self.nome}, Cargo: {self.cargo}, Salario: {self.salario}")
         if self.endereco:
-            print("Endereco: ", end="")
             self.endereco.mostrar_endereco()
         else:
             print("Endereco não disponivel")
